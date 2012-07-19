@@ -1,8 +1,8 @@
 # gems
 require "gosu"
 # my files
-require "player"
-require "window"
+require_relative "player"
+require_relative "window"
 
 window = Window.new
 window.show
